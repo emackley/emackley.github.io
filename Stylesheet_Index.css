@@ -1,0 +1,225 @@
+body {
+ font-family: 'Tahoma';font-size: 20px;
+ background-color: #f6d9d5;
+}
+
+header {
+ max-width: 1500px;
+}
+
+img {
+ display: block;
+ margin-left: auto;
+ margin-right: auto
+}
+
+h1 {
+  font-style: italic;
+  font-weight: 500;
+  font-size: 45px;
+  text-align: center;
+  color: #573665;
+  margin: 0;
+}
+
+h2 {
+  font-weight: 500;
+  font-style: normal;
+  color: #573665;
+  text-align: center;
+}
+
+hr {
+    display: block;
+    height: 10px;
+    border: 0;
+    border-top: 4px solid #F1D6B8;
+    margin: 0;
+    margin-top: 15px;
+    padding: 0;
+    padding-bottom: 20px;
+}
+
+figure {
+  padding-bottom: 3px;
+}
+
+#BookingButton {
+  background-image: url(button.jpg);
+  height: 80px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#BookingButton:hover {
+  background-image: url(button_hover.jpg);
+  height: 80px;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+
+.imghome {
+  height: 275px;
+  padding-left: 0px;
+  margin-left: 0px;
+  padding-right: 20px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.container {
+  /* can be treated like a fallback */
+ background-color: #FDFCF8;
+ background-image: linear-gradient(#ffffed, #f3e3c7);
+ width: 1200px;
+ padding: 2em;
+ margin:auto;
+ overflow: auto;
+}
+
+
+.main {
+  background: #FDFCF8;
+  padding: 2em;
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.rightsidebar {
+  background: #FDFCF8;
+  width: 25%;
+  float: right;
+  height: 800px;
+}
+
+.sections {
+    background: #FDFCF8;
+    width: 70%;
+    float: left;
+}
+
+.space {
+  height: 170px;
+  width: 100px;
+  background-color: black;
+  float: right;
+}
+
+.testimonials {
+  background: rgba(141, 173, 222, .7);
+  width: 200px;
+  padding: 15px;
+  margin: 20px;
+  margin-top: 250px;
+  border: solid;
+  border-color: gray;
+  border-width: 6px;
+  font-style: italic;
+  
+}
+
+
+.contact {
+  background: rgba(141, 173, 222, .7);
+  width: 200px;
+  padding: 15px;
+  margin: 20px;
+  margin-top: 75px;
+  height: 225px;
+  border: solid;
+  border-color: gray;
+  border-width: 6px;
+  font-style: italic;
+  text-align: center;
+}
+
+.contact a {
+  text-decoration: none;
+  color: black;
+}
+
+.contact a:hover {
+  color: #f6d9d5;
+  
+}
+
+/* --------------------------------NAVIGATION---------------------------*/
+
+.navigation {
+  text-align: center;
+  max-width: 1200px;
+  padding: 8px;
+  background-color: #EDD9B6;
+}
+
+.navigation li {
+ list-style-type: none;
+ display: inline;
+ padding:70px;
+}
+
+/*links inside the navigation */
+.navigation a {
+  float: right;
+  position: relative;
+  left: -40px;
+  text-align: center;
+  display: block;
+  color: #855E42;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* hover */
+.navigation a:hover {
+    background-color: #DCCAFE;
+    color: #696969;
+}
+
+/* Active class to highlight the current page */
+.active {
+    background-color: white;
+    color: black;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.navigation .icon {
+    display: none;
+}
+
+/* -----------------------FOOTER---------------------------------*/
+
+footer {
+  background-color: #8DADDE;
+  width: 1240px;
+  height: 40px;
+  padding: 1em;
+  padding-bottom: 2em;
+  margin: 0;
+  clear:both;
+}
+
+footer ul {
+  float: right;
+  position: relative;
+  left: -340px;}
+
+footer li {
+  display: inline;
+  list-style-type: none;
+  text-align: center;
+  color: black;
+  padding: 25px;
+  font-size: 20px;
+}
+
+footer a {
+  text-align: center;
+  color: black;
+  padding: 20px;
+  text-decoration: none;
+}
+
